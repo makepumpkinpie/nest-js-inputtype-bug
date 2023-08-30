@@ -1,0 +1,19 @@
+{
+  "extends": "./node_modules/gts/tsconfig-google.json",
+  "compilerOptions": {
+    "rootDir": ".",
+    "outDir": "./dist",
+    "target": "ES2022",
+    "baseUrl": "./",
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "noImplicitAny": false,
+    "strictPropertyInitialization": false,
+    "skipLibCheck": true
+  },
+  "include": [
+    "migrations/**/*.ts",
+    "src/**/*.ts",
+    "test/**/*.ts"
+  ],
+}

@@ -1,0 +1,19 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Query {
+  hello: String!
+}
+
+type Mutation {
+  set(input: ParentInput!): Boolean!
+}
+
+input ParentInput {
+  children: [ChildInput!]!
+}
+
+input ChildInput {
+  name: [String!]!
+}
