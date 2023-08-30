@@ -1,3 +1,7 @@
+# NestJS bug with nest array of InputType
+When a nestjs input has a nested array of inputs as a property, values of the array are being mapped as array object and not standard json. This is causing an error when we try to Json serialize our input objects.
+
+
 install npm dependencies
 
 ```
